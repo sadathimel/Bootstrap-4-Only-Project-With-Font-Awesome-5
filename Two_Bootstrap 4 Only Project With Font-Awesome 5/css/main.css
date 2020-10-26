@@ -8,7 +8,7 @@ body {
 }
 .title-underline{
     width: 200px;
-    height: 5px;
+    height: 10px;
     margin: 0 auto;
 }
 .height-80{
@@ -21,6 +21,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed; */
 }
-#filler{
+#filler,#progress{
     background:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.9)) ,url(../img/projects-1.jpeg)center/cover no-repeat fixed;
 }
