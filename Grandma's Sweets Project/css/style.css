@@ -21,17 +21,17 @@ body {
   font-size: 2.5rem;
   color: var(--mainPink);
 }
-.nav-link{
+.nav-link {
   color: var(--mainPink);
   transition: all 1s ease-in-out;
   font-size: 1.5rem;
 }
 .nav-link:hover {
-  color:var(--mainBlack);
+  color: var(--mainBlack);
 }
 
 /* cart styles */
-.cart-info__icon{
+.cart-info__icon {
   color: var(--mainBlack);
   cursor: pointer;
 }
@@ -40,14 +40,40 @@ body {
   border: 0.1rem solid var(--mainBlack);
   color: var(--mainBlack);
   border-radius: 0.25rem;
-  padding : 0.4rem 0.6rem;
-  cursor: pointer
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
 }
-.cart-info:hover{
+.cart-info:hover {
   background: var(--mainPink);
   border-color: var(--mainPink);
   color: var(--mainWhite);
 }
-.cart-info:hover .cart-info__icon{
+.cart-info:hover .cart-info__icon {
   color: var(--mainWhite);
+}
+.max-height {
+  min-height: calc(100vh - 70px);
+  background: linear-gradient(var(--yellowTrans), var(--yellowTrans)),
+    url("../img/headerBcg.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.banner {
+  color: var(--mainWhite);
+  margin-top: -4rem;
+}
+.banner-title {
+  color: var(--mainPink);
+  font-size: 4rem;
+}
+.banner-link {
+  font-size: 1.5rem;
+  color: var(--mainBlack);
+  border: 0.2rem solid var(--mainBlack);
+}
+.banner-link:hover {
+  background: var(--mainBlack);
+  color: var(--mainPink);
 }
